@@ -7,7 +7,7 @@
 
 ##Summary
 
-An open-hardware **Logic** analyzer based on the [Cypress CY7C68013A](http://www.digikey.com/product-detail/en/CY7C68013A-56PVXC/428-1627-ND/701273) chip.
+An open-source and open-hardware **Logic** analyzer based on the [Cypress CY7C68013A](http://www.digikey.com/product-detail/en/CY7C68013A-56PVXC/428-1627-ND/701273) chip.
 At just over one square inch, this is one of the tiniest logic analyzers available.  At under about **$20 / unit** (in small quantities) in parts, it's also
 inexpensive, and it's fully compatible with popular logic analyzer software designed for the CY7C68013A chip.
 
@@ -72,3 +72,7 @@ Use your own USB vendorID/productID pair or use a pair that's supported by the l
 (at your own risk, of course!)  The **!reset**, **vdd**, **gnd**, **scl** and **sda** test points on the bottom of the
 board facilitate programming of the EEPROM - simply power the board through **vdd** and **gnd**, hold **!reset** low and
 write configuration/USB ID bytes to the EEPROM with **sda** and **scl**.
+
+## License
+
+Licensed under [Creative Commons CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/) unless otherwise specified.
