@@ -11,6 +11,8 @@ An open-hardware **Logic** analyzer based on the [Cypress CY7C68013A](http://www
 At just over one square inch, this is one of the tiniest logic analyzers available.  At under about **$20 / unit** (in small quantities) in parts, it's also
 inexpensive, and it's fully compatible with popular logic analyzer software designed for the CY7C68013A chip.
 
+New: [Order one from OSHPark!](http://oshpark.com/shared_projects/5RQmFbLg)
+
 ## Build diagram
 [![Build diagram (pdf)](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-build-small.png "build diagram")](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-top.pdf)
 
