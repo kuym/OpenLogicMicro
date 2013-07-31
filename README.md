@@ -3,6 +3,7 @@
 * [Build diagram](#build-diagram)
 * [Renders](#board-renders)
 * [Bill of Materials](#bill-of-materials)
+* [EEPROM programming](#eeprom-programming)
 
 ##Summary
 
@@ -60,3 +61,11 @@ If you acquire the Cypress FX2LP chip, the right crystal and micro-USB connector
 	R11      47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
 	R12      47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
 	X1       NDK NX3225GA 24MHz                   CRYSTAL-4-PIN-NDK-NX3225GA             CRYSTAL-NDK-NX3225GA-3X2.5MM   
+
+## EEPROM programming
+
+The 24LC00 EEPROM on the board must be programmed per the [CY7C68013A datasheet](http://www.cypress.com/?docID=34060) with an appropriate USB identifier.
+Use your own USB vendorID/productID pair or use a pair that's supported by the logic analyzer software you wish to use
+(at your own risk, of course!)  The **!reset**, **vdd**, **gnd**, **scl** and **sda** test points on the bottom of the
+board facilitate programming of the EEPROM - simply power the board through **vdd** and **gnd**, hold **!reset** low and
+write configuration/USB ID bytes to the EEPROM with **sda** and **scl**.
