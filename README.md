@@ -1,5 +1,11 @@
 # OpenLogic Micro
 
+* [Build diagram](#build-diagram)
+* [Renders](#board-renders)
+* [Bill of Materials](#bill-of-materials)
+
+##Summary
+
 An open-hardware **Logic** analyzer based on the [Cypress CY7C68013A](http://www.digikey.com/product-detail/en/CY7C68013A-56PVXC/428-1627-ND/701273) chip.
 At just over one square inch, this is one of the tiniest logic analyzers available.
 
@@ -14,6 +20,9 @@ OpenLogic Micro features components loaded on the top side only.  SSOP, SOT23, S
 ![Rear render](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-render-rear.png "Rear render")
 
 ## Bill of Materials
+
+OpenLogic Micro has a pretty simple BOM featuring all surface-mount parts.  The total cost for the BOM is under **$18** in small quantities.
+If you acquire the Cypress FX2LP chip, the right crystal and micro-USB connector, the rest can virtually be built from junk-box SMD compoennts.
 
 	C1       100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
 	C2       1uF 10V 0603                         CAP-0603-MIN                           0603-MIN                       
