@@ -13,3 +13,40 @@ OpenLogic Micro features components loaded on the top side only.  SSOP, SOT23, S
 ![Rear render](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-render-rear.png "Rear render")
 
 ## Bill of Materials
+
+	C1       100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C2       1uF 10V 0603                         CAP-0603-MIN                           0603-MIN                       
+	C3       10pF 50V 0402                        CAP-0402-MIN                           0402-MIN                       
+	C4       10pF 50V 0402                        CAP-0402-MIN                           0402-MIN                       
+	C5       1uF 10V 0603                         CAP-0603-MIN                           0603-MIN                       
+	C7       10uF 6.3V 0805                       CAP-0805-WIDE                          0805-WIDE                      
+	C8       100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C9       100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C10      100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C11      100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C12      100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C13      100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C14      100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	C15      100nF 10V 0402                       CAP-0402-MIN                           0402-MIN                       
+	F1       400mA PTC 0805                       PTC-0805-EXTRAWIDE                     0805-EXTRAWIDE                 
+	IC1      CYPRESS-FX2LP-USB-HS-8051-CONTROLLER CYPRESS-FX2LP-USB-HS-8051-CONTROLLER   TSSOP56                        
+	IC2      Microchip 24C00                      EEPROM-I2C-MCP-24AAXX/24LCXX           SOT23-5                        
+	IC3      LM1117-3.3V SOT223                   LDO-REGULATOR-FIXED-NCP1117            SOT223-3                       
+	IC4      ESD clamp chip (TBD)   		      TBD 									 SOT23-6                        
+	IC5      ESD clamp chip (TBD)		          TBD                                    SOT23-6                        
+	K1       FCI 10118193 MicroUSB                USB-5-PIN-MICROB-FCI-10118193-NARROW   USB-MICROB-FCI-10118193-NARROW 
+	L1       3A 100R@100MHz Ferrite 0603          FERRITE-BEAD-0603-MIN                  0603-MIN                       
+	L2       3A 100R@100MHz Ferrite 0603          FERRITE-BEAD-0603-MIN                  0603-MIN                       
+	R1       2.2kΩ 0402                           RESISTOR-0402-MIN                      0402-MIN                       
+	R2       2.2kΩ 0402                           RESISTOR-0402-MIN                      0402-MIN                       
+	R3       10kΩ 0402                            RESISTOR-0402-MIN                      0402-MIN                       
+	R4       10kΩ 0402                            RESISTOR-0402-MIN                      0402-MIN                       
+	R5       47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R6       47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R7       47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R8       47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R9       47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R10      47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R11      47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	R12      47Ω 1% 0402                          RESISTOR-0402-MIN                      0402-MIN                       
+	X1       NDK NX3225GA 24MHz                   CRYSTAL-4-PIN-NDK-NX3225GA             CRYSTAL-NDK-NX3225GA-3X2.5MM   
