@@ -4,6 +4,7 @@
 * [Renders](#board-renders)
 * [Bill of Materials](#bill-of-materials)
 * [EEPROM programming](#eeprom-programming)
+* [License](#license)
 
 ##Summary
 
