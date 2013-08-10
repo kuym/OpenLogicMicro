@@ -14,7 +14,7 @@ inexpensive, and it's fully compatible with popular logic analyzer software desi
 New: [Order one from OSHPark!](http://oshpark.com/shared_projects/5RQmFbLg)
 
 ## Build diagram
-[![Build diagram (pdf)](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-build-small.png "build diagram")](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-top.pdf)
+[![Build diagram (pdf)](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-build-small.png "build diagram")](https://github.com/kuym/OpenLogicMicro/raw/master/BuildDocs/OpenLogicMicro-build-top.pdf)
 
 OpenLogic Micro features components loaded on the top side only.  SSOP, SOT23, SOT223, 0805, 0603 and 0402 parts are used, along with a surface-mount USB connector and crystal.
 
