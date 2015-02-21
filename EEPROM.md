@@ -1,6 +1,6 @@
 ## Writing configuration data to the I2C EEPROM
 
-Write the following bytes ot the I2C EEPROM in the system (a 24LC00):
+Write the following bytes to the I2C EEPROM in the system (a 24LC00) starting at address 0:
 
     C0 vv VV pp PP dd DD 00
 
