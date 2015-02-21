@@ -2,7 +2,7 @@
 
 Write the following bytes ot the I2C EEPROM in the system (a 24LC00):
 
-  C0 vv VV pp PP dd DD 00
+    C0 vv VV pp PP dd DD 00
 
 Where:
 - vv VV is USB vendor ID (`vv` is low byte, `VV` is high byte)
